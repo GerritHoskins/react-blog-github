@@ -1,6 +1,6 @@
 export const config = {
   // Your Github Converted Token To Know How To Get Your Token Look at Readme.md
-  githubConvertedToken: "ZDA5OWI2ZjhmN2EyNzNiNmNkMWIwZDk5ZDc1YjkxZWNkZjY2ZDViYQ",
+  githubConvertedToken: "ZTI2Mzk0NmI3YzhhOTkwODVlNDc0ZTc4MjNjMTUxZDBjM2I0YjVjNQ==",
 
   // Your Github UserName
   githubUserName: "GerritHoskins",
@@ -12,7 +12,7 @@ export const config = {
   // and fill the client ID & secret
   enableOAuth: true,
   OAuthClientID: 'Iv1.cbe9bf37ed7fc99f',
-  OAuthSecret: 'd099b6f8f7a273b6cd1b0d99d75b91ecdf66d5ba',
+  OAuthSecret: 'e263946b7c8a99085e474e7823c151d0c3b4b5c5',
 
   // Your Personal Blog Title
   title : "Saad Pasta" ,
