@@ -1,12 +1,12 @@
 export const config = {
   // Your Github Converted Token To Know How To Get Your Token Look at Readme.md
-  githubConvertedToken: "NDI4NDA0YTYzNGNkOGI4Y2U0ZDRiNzBkNjVkZDVhZmZjNTU5YmEyZg==",
+  githubConvertedToken: 'NDI4NDA0YTYzNGNkOGI4Y2U0ZDRiNzBkNjVkZDVhZmZjNTU5YmEyZg==',
 
   // Your Github UserName
-  githubUserName: "GerritHoskins",
+  githubUserName: 'GerritHoskins',
 
   // Your Github Repo Name Where You Have your issues as Blog
-  githubRepo: "react-blog-github",
+  githubRepo: 'react-blog-github',
 
   // Set it to true if you have a Github app to add to this project
   // and fill the client ID & secret
@@ -15,10 +15,10 @@ export const config = {
   OAuthSecret: 'e1e14b19a57cb489537bd686d8c5a482bf695be2',
 
   // Your Personal Blog Title
-  title : "Saad Pasta" ,
+  title: 'Multiply & Unite',
 
   // Your Personal Blog Subtitle
-  subtitle : "Web Developer",
+  subtitle: 'A Web Developer Blog',
 
   // Header customization
   header: {
@@ -29,4 +29,13 @@ export const config = {
     subtitleColor: '#37474f',
     subtitleColorDark: '#D8DEE9',
   },
+
+  socialIcons: {
+    xing: 'https://xing.de/',
+    linkedin: 'https://linkedin.de/',
+    github: 'https://github.de/',
+    devto: 'https://devto.de/',
+  },
+
+  copyRight: 'Copyright © 2019-2020, Gerrit Hoskins'
 };

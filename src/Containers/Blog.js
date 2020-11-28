@@ -4,6 +4,7 @@ import { useQuery } from '@apollo/react-hooks';
 
 import { config } from "../config";
 import { Header } from "../Components/Header";
+import { Footer } from "../Components/Footer";
 import { Loader } from '../Components/Common'
 import { BlogContainer } from '../Components/Blog'
 import { Card } from '../Components/Blog/Card'
@@ -66,6 +67,7 @@ const Blog = () => {
             })
         }
       </BlogContainer>
+      <Footer />
     </>
   );
 }
