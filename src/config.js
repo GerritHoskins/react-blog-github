@@ -31,10 +31,10 @@ export const config = {
   },
 
   socialIcons: {
-    xing: 'https://xing.de/',
-    linkedin: 'https://linkedin.de/',
-    github: 'https://github.de/',
-    devto: 'https://devto.de/',
+    xing: 'https://www.xing.com/profile/Gerrit_Hoskins',
+    linkedin: 'https://linkedin.com/in/gerrit-hoskins',
+    github: 'https://github.com/GerritHoskins',
+    devto: 'https://dev.to/gerrithoskins',
   },
 
   copyRight: 'Copyright © 2019-2020, Gerrit Hoskins'

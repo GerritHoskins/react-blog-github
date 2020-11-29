@@ -167,6 +167,7 @@ export default function BlogHome() {
 
   return (
     <>
+    <Header />
       {post.title && (
         <PostContainer>
           <BackButton onClick={() => onBackClick()}>Back</BackButton>
