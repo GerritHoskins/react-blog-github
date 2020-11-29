@@ -5,7 +5,6 @@ import {
     FooterWrapper,
     SocialAddy
 } from './'
-//import SocialAddy from './SocialAddy'
 import { config } from "../../config"
 
 const StyledCopyRight = styled.div`

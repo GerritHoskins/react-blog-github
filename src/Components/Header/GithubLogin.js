@@ -34,6 +34,7 @@ const Text = styled.span`
   font-weight: 300;
   line-height: 28px;
   font-family: Quicksand;
+  font-size: 18px;
 `
 
 export const GithubLogin = ({ isAbsolute }) => {
