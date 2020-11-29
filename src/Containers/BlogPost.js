@@ -9,8 +9,10 @@ import { useQuery } from "@apollo/react-hooks";
 
 import { config } from "../config";
 import { getEmojiByName, getNameByEmoji } from '../Utils/emoji';
-import { getAuthenticatedUser } from '../Utils/auth'
-import { Loader } from "../Components/Common";
+import { getAuthenticatedUser } from '../Utils/auth';
+import { Loader } from '../Components/Common'
+import { Header } from "../Components/Header";
+import { Footer } from "../Components/Footer";
 import { PostContainer, PostTitle, PostDate, PostDateLink, PostReaction, BackButton } from "../Components/Post";
 import { AuthorDetails, AuthorAvatar, AuthorName } from "../Components/Post/Author";
 import { GithubLogin } from '../Components/Header'
@@ -215,6 +217,7 @@ export default function BlogHome() {
           <CommentsSection postUrl={post.url} comments={postComments} />
         </PostContainer>
       )}
+      <Footer />
     </>
   );
 }

@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { config } from '../../config'
+const { subtitleColor, subtitleColorDark } = config.header;
 
 const { enableOAuth, OAuthClientID } = config
 
@@ -28,10 +29,11 @@ const Button = styled.button`
     box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.10);
   }
 `
-
 const Text = styled.span`
-  color: #FFF;
-  font-size: 18px;
+  color: ${(props) => props.theme.mode === "light" ? subtitleColor : subtitleColorDark};
+  font-weight: 300;
+  line-height: 28px;
+  font-family: Quicksand;
 `
 
 export const GithubLogin = ({ isAbsolute }) => {
